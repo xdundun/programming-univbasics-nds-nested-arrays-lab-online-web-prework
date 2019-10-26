@@ -39,5 +39,5 @@ def matrix_update(matrix, row, column, new_value)
   # Return the updated matrix
   puts matrix
   matrix[row][column] = new_value
-  puts matrix
+  puts matrix[row]
 end
